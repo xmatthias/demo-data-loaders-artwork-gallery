@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import type { ArtworkCardInfo } from '@/api/artworks'
-import { computed } from 'vue'
 
 const props = defineProps<{
   artwork: ArtworkCardInfo
